@@ -63,6 +63,10 @@ class WhisperAPIEventHandler(AsyncEventHandler):
                             "temperature_inc": "0.2",
                             "response_format": "json"
                         }
+
+                        if self.cli_args.model:
+                            params["model"] = self.cli_args.model
+
                         r = await client.post(self.cli_args.api, files=files, params=params, timeout=120.0)
                         #_LOGGER.debug(r.json())
                         text = r.json()['text']
