@@ -1,0 +1,45 @@
+# VCS
+.github/
+.git/
+.gitignore
+LICENSE
+LICENSE.md
+MANIFEST.in
+README.md
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local editor/OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Development-only content
+script/
+tests/
+.isort.cfg
+.projectile
+mypy.ini
+pylintrc
+requirements_dev.txt
