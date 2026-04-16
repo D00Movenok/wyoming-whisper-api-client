@@ -40,7 +40,7 @@ Run a server anyone can connect to:
 
 ### Docker
 
-(**optional**, it already builded in GHCR image registry) Build the container:
+(**Optional**) The image is already published in GHCR. Build locally with:
 
 ```sh
 git clone https://github.com/ser/wyoming-whisper-api-client
